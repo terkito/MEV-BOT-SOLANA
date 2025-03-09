@@ -1,5 +1,4 @@
 # MevBot Solana
-![⬛🤖 Banner](https://i.ibb.co/Q7MbFSKK/image-5.jpg)
 
 MevBot Solana es un avanzado bot de trading para la blockchain de Solana, con una interfaz intuitiva e integración con exchanges descentralizados como `Jupiter`, `Raydium` y `Pump.FUN`.
 
