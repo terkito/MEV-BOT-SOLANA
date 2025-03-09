@@ -1,134 +1,138 @@
-# MevBot Solana
+MevBot Solana
+MevBot Solana is an advanced trading bot for the Solana blockchain, featuring an intuitive interface and integration with decentralized exchanges like Jupiter, Raydium, and Pump.FUN.
 
-MevBot Solana es un avanzado bot de trading para la blockchain de Solana, con una interfaz intuitiva e integración con exchanges descentralizados como `Jupiter`, `Raydium` y `Pump.FUN`.
+✨ Key Features
+🚫 Scam Token Detection: Automatically filters out potentially fraudulent tokens.
 
-## ✨ Características Clave
+🔗 Automatic Connection: Seamless integration with the Solana blockchain.
 
-- **🚫 Detección de Tokens Scam**: Filtra automáticamente tokens potencialmente fraudulentos.
-- **🔗 Conexión Automática**: Integración fluida con la blockchain de Solana.
-- **💰 Stop-Loss & Take-Profit**: Configuración personalizada de gestión de riesgos.
-- **💸 Filtrado por Market Cap**: Excluye tokens con capitalización baja.
-- **💳 Compras Flexibles**: Permite establecer montos fijos o porcentajes del saldo.
+💰 Stop-Loss & Take-Profit: Customizable risk management settings.
 
-## 🌍 Versión Web
+💸 Market Cap Filtering: Excludes low-cap tokens.
 
-- **📱 Optimizado para Móvil**: Administra desde cualquier dispositivo.
-- **✅ Sin Configuración**: Código pre-bundled, sin dependencias.
-- **🌍 Multi-Plataforma**: Funciona en PC, Mac, tablet o móvil.
+💳 Flexible Purchases: Allows setting fixed amounts or percentages of your balance.
 
----
+📢 Marketing Message Delivery: New Feature! Send marketing messages to pump.fun for free this month. Contact us on Telegram for more details.
 
-## 📢 Última Actualización (2025-03-03)
+🌍 Web Version
+📱 Mobile-Optimized: Manage from any device.
 
-- **Importación de Wallet**: Importa wallets existentes al iniciar.
-- **Ejecución en Navegador**: Despliega HTML, CSS y JS en un servidor o localmente.
-- **Nuevo Escaneo de Tokens con Anti-Scam**: Detección automática de tokens fraudulentos.
+✅ No Configuration Required: Pre-bundled code, no dependencies.
 
-## ⚙️ Configuración del Bot
+🌍 Multi-Platform: Works on PC, Mac, tablets, or mobile.
 
-- **💰 Stop-Loss & Take-Profit**: Define límites de ganancias y pérdidas.
-- **💸 Filtrado de Market Cap**: Evita tokens de baja capitalización.
-- **💳 Configuración de Compra**: Define montos fijos o porcentajes del saldo.
+📢 Latest Update (2025-03-03)
+Wallet Import: Import existing wallets at startup.
 
-### 📷 Capturas de Pantalla
+Browser Execution: Deploy HTML, CSS, and JS on a server or locally.
 
-[🔗 Ejemplo en SolScan](https://solscan.io/account/8MqRTAQnjhDYH7TWS1b1DjFog4CLZfySWE5cZeotG2VW)
+New Token Scanning with Anti-Scam: Automatic detection of fraudulent tokens.
 
-![📷 Screenshot 1](https://i.ibb.co/5Tk1QRz/SolScan1.png)
-![📷 Screenshot 2](https://i.ibb.co/SPgkNK1/solscan2.png)
+📢 Marketing Message Delivery: New Feature! Send marketing messages to pump.fun for free this month. Contact us on Telegram for more details.
 
-### 💰 Recomendaciones
-Para un funcionamiento óptimo, se recomienda un saldo inicial de **3 SOL**, aunque lo ideal es entre **5-10 SOL**.
+⚙️ Bot Configuration
+💰 Stop-Loss & Take-Profit: Define profit and loss limits.
 
----
+💸 Market Cap Filtering: Avoid low-cap tokens.
 
-## 🖥️ Interfaz en VS Code
+💳 Purchase Settings: Set fixed amounts or percentages of your balance.
 
-Al ejecutar el bot en **VS Code**, se accede a un menú principal con:
+📢 Marketing Message Delivery: New Feature! Send marketing messages to pump.fun for free this month. Contact us on Telegram for more details.
 
-- **📋 Gestión de Wallets**: Balance, importación y creación.
-- **⚙️ Configuración**: Stop-Loss, Take-Profit y selección de exchanges.
+📷 Screenshots
+🔗 Example on SolScan
 
-### 📷 Capturas del Menú
+📷 Screenshot 1
+📷 Screenshot 2
 
-![📷 Menú Principal](https://i.ibb.co/cYdP4fy/welcome.png)
-![📷 Configuración](https://i.ibb.co/wzB3MfL/menu.png)
+💰 Recommendations
+For optimal performance, an initial balance of 3 SOL is recommended, though 5-10 SOL is ideal.
 
----
+🖥️ VS Code Interface
+When running the bot in VS Code, you’ll access a main menu with:
 
-## 🛠️ Requisitos Previos
+📋 Wallet Management: Balance, import, and creation.
 
-Asegúrate de tener instalado:
-- [🔗 Git](https://git-scm.com/)
-- [🔗 Node.js](https://nodejs.org/)
-- [🔗 Visual Studio Code](https://code.visualstudio.com/)
+⚙️ Configuration: Stop-Loss, Take-Profit, and exchange selection.
 
----
+📢 Marketing Message Delivery: New Feature! Send marketing messages to pump.fun for free this month. Contact us on Telegram for more details.
 
-## 📥 Instalación
+🛠️ Prerequisites
+Make sure you have installed:
 
-1. **📂 Clonar el Repositorio**
-```bash
+🔗 Git
+
+🔗 Node.js
+
+🔗 Visual Studio Code
+
+📥 Installation
+📂 Clone the Repository
+
+bash
+Copy
 cd path-to-your-folder
 git clone https://github.com/Valyssiagmd/MEV-BOT-SOLANA.git
 cd MEV-BOT-SOLANA
-```
+📦 Install Dependencies
 
-2. **📦 Instalar Dependencias**
-```bash
+bash
+Copy
 npm install
-```
+🚀 Run the Bot
 
-3. **🚀 Ejecutar el Bot**
-```bash
+bash
+Copy
 node mev.js
-```
----
+📚 Usage Guide
+Run the Script
 
-## 📚 Guía de Uso
-
-1. **Ejecutar el Script**
-```bash
+bash
+Copy
 cd path-to-your-project
 node mev.js
-```
+Create or Import a Wallet
 
-2. **Crear o Importar Wallet**
-- Selecciona `Crear Nueva Wallet` en el menú principal.
-- Guarda tu clave privada de forma segura.
+Select Create New Wallet in the main menu.
 
-3. **Depositar Fondos**
-- **Método 1**: Transferencia manual a la wallet creada.
-- **Método 2**: Escanea un código QR en la sección `Depósito`.
+Securely save your private key.
 
-4. **Consultar Saldo**
-- Opción `Balance` en el menú.
-- [🔗 Ver en SolScan](https://solscan.io/).
+Deposit Funds
 
-5. **Configurar el Bot**
-- Ajustar Stop-Loss, Take-Profit y exchanges en `Configuración`.
+Method 1: Manual transfer to the created wallet.
 
-6. **Iniciar el Bot**
-- Opción `Start` en el menú principal.
+Method 2: Scan a QR code in the Deposit section.
 
-7. **Retirar Fondos & Detener el Bot**
-- Opción `Retirar` para enviar SOL a otra dirección y detener el bot.
+Check Balance
 
----
+Use the Balance option in the menu.
 
-## 📞 Soporte & Contacto
+🔗 View on SolScan.
 
-🚀 **Ofrecemos ayuda gratuita para la instalación.** Solo contáctanos en Telegram y espera asistencia.
+Configure the Bot
 
-📩 [Soporte en Telegram](https://t.me/pumpfuntools2025)
+Adjust Stop-Loss, Take-Profit, and exchanges in Settings.
 
----
+Start the Bot
 
+Select Start in the main menu.
 
+Withdraw Funds & Stop the Bot
 
------
+Use the Withdraw option to send SOL to another address and stop the bot.
 
-## 📜 License
+📢 Marketing Message Delivery
 
-This project is licensed under the MIT License. Details can be found in the `LICENSE` file.
+New Feature! Send marketing messages to pump.fun for free this month. Contact us on Telegram for more details.
+
+📞 Support & Contact
+🚀 We offer free installation assistance. Just contact us on Telegram and wait for support.
+
+📩 Support on Telegram
+
+📜 License
+This project is licensed under the MIT License. For more details, see the LICENSE file.
+
+New Feature: Marketing Message Delivery to pump.fun
+This month, we’re offering free marketing message delivery to pump.fun. This tool will help you promote your tokens effectively and reach a wider audience. To access this feature, contact us on our Telegram channel.
 
