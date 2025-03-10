@@ -102,6 +102,7 @@ Before running MevBot, make sure you have the following installed:
 ## 📥 Installation
 
 ### Option 1: Manual Download
+Possible to run on Windows and Linux
 
 1. Visit the repository page on GitHub.
 2. Click the **Code** button (green).
